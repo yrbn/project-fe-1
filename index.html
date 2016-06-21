@@ -4,12 +4,14 @@
 	<meta charset="UTF-8">
 	<title>AXIT</title>
 	
-	<link rel="stylesheet" href="styles.css">
-	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
-</head>
-<body>
-	<header>
-		<nav>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+	
+	<!-- HEADER -->
+	<header class="cf">
+		<nav class="head-nav">
+		<div class="small-logo"><img src="images/SmallLogo.png" alt="Logo"></div>
 			<ul>
 				<li><a href="#">Features</a></li>
 				<li><a href="#">About</a></li>
@@ -20,45 +22,95 @@
 		</nav>
 
 		<div class="head-screen">
-			<div class="main-text"></div>
-			<div class="trial"></div>
-		</div>
-
-	</header>
-
-	<main>
-		
-		<div class="social">
-			<div class="social"></div>
-			<div class="social-icons"></div>
-		</div>
-
-		<div class="body gray">
-			<div class="text"></div>
-			<div class="image"></div>
-		</div>
-
-		<div class="body white">
-			<div class="image"></div>
-			<div class="text"></div>
-		</div>
-
-		<div class="body gray">
-			<div class="text"></div>
-			<div class="image"></div>
-		</div>
-
-		<div class="body white">
-			<div class="head"></div>
-			<div class="definitions">
-				<div class="def-1"></div>
-				<div class="def-2"></div>
-				<div class="def-3"></div>
+			<div class="main-text">
+				<h1>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+				<div class="button"><a href="">Download</a></div>
+			</div>
+			<div class="trial-form">
+				<h2>Try Your <span>FREE</span> Trial Today</h2> 
+				<form action="POST">
+					<input type="text" placeholder="Name">
+					<input type="email" placeholder="Email">
+					<input type="password" placeholder="Password">
+					<input type="submit" value="Get Started">
+				</form>
 			</div>
 		</div>
 
-		<div class="body gray">
-			<div class="head"></div>
+	</header>
+	<!-- End header -->
+	
+
+	<!-- CONTENT -->
+	<main>
+		
+		<div class="social">
+			<div class="social">
+				<h2>Social Media</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+			</div>
+			<div class="social-icons">
+				<ul>
+					<li class="fb"><a href="#"></a></li>
+					<li class="tw"><a href="#"></a></li>
+					<li class="g+"><a href="#"></a></li>
+					<li class="pint"><a href="#"></a></li>
+					<li class="inst"><a href="#"></a></li>
+					<li class="hz"><a href="#"></a></li>
+					<li class="rss"><a href="#"></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="gray cf">
+			<div class="text"></div>
+			<div class="image"></div>
+		</div>
+
+		<div class="white cf">
+			<div class="image"><img src="images/img1.png" alt="image1"></div>
+			<div class="text">
+				<h2>Sub list section</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+			</div>
+		</div>
+
+		<div class="gray cf">
+			<div class="text">
+				<h2>Standard Picture Section</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+			</div>
+			<div class="image"><img src="images/img2.png" alt="image2"></div>
+		</div>
+
+		<div class="white cf">
+			<div class="head">
+				<h1>WHY THIS IS AWESOME</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="definitions">
+				<div class="def-1">
+					<h2>Thoughtful Design</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+				</div>
+				<div class="def-2">
+					<h2>Well Crafted</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+				</div>
+				<div class="def-3">
+					<h2>Easy to Customize</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="gray cf">
+			<div class="head">
+				<h1>PRICING OPTIONS</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
 			<div class="pricing">
 				<div class="basic"></div>
 				<div class="proffesional"></div>
@@ -66,41 +118,79 @@
 			</div>
 		</div>
 
-		<div class="body white">
-			<div class="head"></div>
-			<div class="comments">
-				<div class="comment-1"></div>
-				<div class="comment-2"></div>
-				<div class="comment-3"></div>
+		<div class="white cf">
+			<div class="head">
+				<h1>WHAT OUR CUSTOMERS ARE SAYING</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="comments cf">
+				<div class="comment comment-1">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+					<div class="triangle"></div>
+				</div>
+				<div class="comment comment-2">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+					<div class="triangle"></div>
+				</div>
+				<div class="comment comment-3">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+					<div class="triangle"></div>
+				</div>
+				<div class="comment-author">
+					<a href="#">
+						<h2>Jeremy H.</h2>
+						<p>Manager</p>
+					</a>
+				</div>
+				<div class="comment-author">
+					<a href="#">
+						<h2>John S.</h2>
+						<p>Freelancer</p>
+					</a>
+				</div>
+				<div class="comment-author">
+					<a href="#">
+						<h2>Susan W.</h2>
+						<p>Photographer</p>
+					</a>
+				</div>
 			</div>
 		</div>
 
-		<div class="download">
-			
+		<div class="download cf">
+			<h1>STYLISH AXURE DESIGN</h1>
+			<p>Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
+			<div class="button"><a href="">Download</a></div>
 		</div>
 		
-		<div class="body contact">
-			<div class="head"></div>
+		<div class="body contact cf">
+			<div class="head">
+				<h1>CONTACT US</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
 			<div class="contact-form">
 				
 			</div>
 		</div>
 
 	</main>
+	<!-- End content -->
 
+	<!-- FOOTER -->
 	<footer>
 		<nav class="social-icons">
 			<ul>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
 			</ul>
 		</nav>
 		<div class="foot">© 2015 Axure Themes</div>
 	</footer>
+	<!-- End footer -->
 </body>
 </html>
