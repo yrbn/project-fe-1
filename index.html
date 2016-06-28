@@ -6,51 +6,60 @@
 	
 	<link rel="stylesheet" href="css/normalize.css" />
 	<link rel="stylesheet" href="css/style.css" />
+	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css' />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 </head>
 	
 <body>
+
 	<!-- HEADER -->
 	<header class="cf">
-		<nav class="head-nav">
-		<div class="small-logo"><img src="images/SmallLogo.png" alt="Logo"></div>
+		<nav class="header_nav">
+		<div class="header__small-logo"><img src="images/SmallLogo.png" alt="Logo"></div>
 			<ul>
-				<li><a href="#">Features</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Pricing</a></li>
-				<li><a href="#">Reviews</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="#features">Features</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#pricing">Pricing</a></li>
+				<li><a href="#reviews">Reviews</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
-
-		<div class="head-screen">
-			<div class="main-text">
-				<h1>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
-				<div class="button"><a href="">Download</a></div>
-			</div>
-			<div class="trial-form">
-				<h2>Try Your <span>FREE</span> Trial Today</h2> 
-				<form action="POST">
-					<input type="text" placeholder="Name">
-					<input type="email" placeholder="Email">
-					<input type="password" placeholder="Password">
-					<input type="submit" value="Get Started">
-				</form>
-			</div>
-		</div>
-
 	</header>
 	<!-- End header -->
 	
 
 	<!-- CONTENT -->
 	<main>
+
+
 		
-		<div class="social">
-			<div class="social">
+		<div class="head-screen cf">
+			<div class="head-screen_text">
+				<img src="images/BigLogo.png" alt="Logo">
+				<h1>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+				<div class="divider"></div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+				<div class="button-transparent"><a href="">Download</a></div>
+			</div>
+			.
+			<div class="head-screen_form">
+				<form class="form" action="POST">
+					<h2>Try Your <span>FREE</span> Trial Today</h2> 
+					<div class="head-screen_form__inputs">
+						<input type="text" placeholder="Name">
+						<input type="email" placeholder="Email">
+						<input type="password" placeholder="Password">
+					</div>
+					<button type="submit">Get Started</button>
+				</form>
+			</div>
+		</div>
+
+
+		<!-- SOCIAL SECTION -->
+		<div class="social cf">
 				<h2>Social Media</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-			</div>
 			<div class="social-icons">
 				<ul>
 					<li class="fb"><a href="#"></a></li>
@@ -64,118 +73,282 @@
 			</div>
 		</div>
 
-		<div class="gray cf">
-			<div class="text"></div>
-			<div class="image"></div>
+
+
+
+		<!-- TABS SECTION  -->
+		<a name="about"></a>
+		<div class="gray tabs cf">
+			<div class="tab cf">
+				<input type="radio" id="tab1" name="tabs" checked>
+				<label for="tab1">TAB 1</label>
+				<div class="tab_content">
+				<div class="text">
+					<h2>Tab1 with soft transitioning effect.</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+				<div class="button-color"><a href="#">Download</a></div>
+				</div>
+				<div class="image"><img src="../images/City.png" alt="City"></div>
+				</div>
+			</div>
+
+
+			<div class="tab cf">
+				<input type="radio" id="tab2" name="tabs">
+				<label for="tab2">TAB 2</label>
+				<div class="tab_content">
+				<div class="text">
+					<h2>Tab2 with soft transitioning effect.</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+					<p>Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.</p>
+				<div class="button-color"><a href="#">Download</a></div>
+				</div>
+				<div class="image"><img src="../images/City.png" alt="City"></div>
+				</div>
+			</div>
+
+			<div class="tab cf">
+				<input type="radio" id="tab3" name="tabs">
+				<label for="tab3">TAB 3</label>
+				<div class="tab_content">
+					<div class="text">
+					<h2>Tab3 with soft transitioning effect.</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+					<p>Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+				<div class="button-color"><a href="#">Download</a></div>
+				</div>
+				<div class="image"><img src="../images/City.png" alt="City"></div>
+				</div>
+			</div>
+
 		</div>
 
-		<div class="white cf">
+
+
+
+
+		<!-- SUBLIST SECTION-->
+		<div class="white sublist cf">
 			<div class="image"><img src="images/img1.png" alt="image1"></div>
 			<div class="text">
 				<h2>Sub list section</h2>
+				<div class="divider"></div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+				<div class="buttons">
+					<a href="#"><img src="../images/icon1.png" alt="icon"></a>
+					<a href="#"><img src="../images/icon2.png" alt="icon"></a>
+				</div>
+				<ul>
+					<li>			
+						<h3>Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+					</li>
+					<li>
+						<h3>Title</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+					</li>
+				</ul>
 			</div>
 		</div>
 
-		<div class="gray cf">
+
+
+		<!-- STANDART SECTION-->
+		<div class="standart cf">
+			<div class="image"><img src="images/img2.png" alt="image2"></div>
 			<div class="text">
 				<h2>Standard Picture Section</h2>
+				<div class="divider"></div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
 			</div>
-			<div class="image"><img src="images/img2.png" alt="image2"></div>
 		</div>
 
-		<div class="white cf">
-			<div class="head">
+
+		<!-- FEATURES SECTION -->
+		<a name="features"></a>
+		<div class="awesome cf">
 				<h1>WHY THIS IS AWESOME</h1>
+				<div class="divider"></div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			</div>
 			<div class="definitions">
-				<div class="def-1">
+				<div class="definition">
+					<a href="#"><img src="../images/icon3.png" alt=""></a>
 					<h2>Thoughtful Design</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
 				</div>
-				<div class="def-2">
+				<div class="definition">
+					<a href="#"><img src="../images/icon4.png" alt=""></a>
 					<h2>Well Crafted</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
 				</div>
-				<div class="def-3">
+				<div class="definition">
+					<a href="#"><img src="../images/icon5.png" alt=""></a>
 					<h2>Easy to Customize</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
 				</div>
 			</div>
 		</div>
 
-		<div class="gray cf">
-			<div class="head">
+
+		<!-- PRICING SECTION-->
+		<a name="pricing"></a>
+		<div class="pricing cf">
 				<h1>PRICING OPTIONS</h1>
+				<div class="divider"></div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			</div>
-			<div class="pricing">
-				<div class="basic"></div>
-				<div class="proffesional"></div>
-				<div class="enterprise"></div>
+			<div class="pricing_tables">
+				<div class="pricing_tables_table">
+					<div class="pricing_tables_table__head">
+						<h2>Basic</h2>
+						<div class="pricing_tables_table__price">
+							<h1>
+								$<span>0</span>
+							</h1>
+						</div>
+						<p>Free For Life</p>
+					</div>
+					<ul>
+						<li>1gb of space</li>
+						<li>10gb of bandwidth</li>
+						<li>3 websites</li>
+						<li>basic customization</li>
+						<li>wordpress integration</li>
+						<li>email support</li>
+					</ul>
+				</div>
+				<div class="pricing_tables_table">
+					<div class="pricing_tables_table__head">
+						<h2>Professional</h2>
+						<div class="title_price">
+							<h1>
+								$<span>19</span>
+							</h1>
+						</div>
+						<p>Monthly Payment</p>
+						<div class="pricing_tables_table__pop">
+							<h2>our most popular</h2>
+						</div>
+					</div>
+					<ul>
+						<li>5gb of space</li>
+						<li>50gb of bandwidth</li>
+						<li>12 websites</li>
+						<li>advanced customization</li>
+						<li>wordpress integration</li>
+						<li>email support</li>
+					</ul>
+					</div>
+				<div class="pricing_tables_table">
+					<div class="pricing_tables_table__head">
+						<h2>Enterprise</h2>
+						<div class="title_price">
+							<h1>
+								$<span>70</span>
+							</h1>
+						</div>
+						<p>Monthly Payment</p>
+					</div>
+					<ul>
+						<li>unlimited spaced</li>
+						<li>unlimited bandwidth</li>
+						<li>100 websites</li>
+						<li>advanced customization</li>
+						<li>wordpress integration</li>
+						<li>24/7 customization support</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 
-		<div class="white cf">
+
+
+		<!-- COMMENTS -->
+		<a name="reviews"></a>
+		<div class="comments cf">
 			<div class="head">
 				<h1>WHAT OUR CUSTOMERS ARE SAYING</h1>
+				<div class="divider"></div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 			</div>
-			<div class="comments cf">
-				<div class="comment comment-1">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
-					<div class="triangle"></div>
-				</div>
-				<div class="comment comment-2">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
-					<div class="triangle"></div>
-				</div>
-				<div class="comment comment-3">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
-					<div class="triangle"></div>
-				</div>
-				<div class="comment-author">
-					<a href="#">
+			<div class="comments_blocks cf">
+				<div class="comment">
+					<div class="comments_text">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+					</div>
+					<div class="comments_comment__img">
+						<a href="#"><img src="../images/ava.png" alt="photo"></a>
+					</div>
+					<div class="comments_author">
 						<h2>Jeremy H.</h2>
 						<p>Manager</p>
-					</a>
+					</div>
 				</div>
-				<div class="comment-author">
-					<a href="#">
+				<div class="comment comment-2">
+					<div class="comments_text">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+					</div>
+					
+					<div class="comments_comment__img">
+						<a href="#"><img src="../images/ava.png" alt="photo"></a>
+					</div>
+					<div class="comments_author">
 						<h2>John S.</h2>
 						<p>Freelancer</p>
-					</a>
+					</div>
 				</div>
-				<div class="comment-author">
-					<a href="#">
+				<div class="comment comment-3">
+					<div class="comments_text">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.</p>
+					</div>
+					
+					<div class="comments_comment__img">
+						<a href="#"><img src="../images/ava.png" alt="photo"></a>
+					</div>
+					<div class="comments_author">
 						<h2>Susan W.</h2>
 						<p>Photographer</p>
-					</a>
+					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="download cf">
+
+		<!-- DESIGN SECTION -->
+		<div class="design cf">
 			<h1>STYLISH AXURE DESIGN</h1>
+			<div class="divider"></div>
 			<p>Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
-			<div class="button"><a href="">Download</a></div>
+			<div class="button-transparent"><a href="">Download</a></div>
 		</div>
 		
-		<div class="body contact cf">
-			<div class="head">
+
+
+		<!-- CONTACT US SECTION-->
+		<a name="contact"></a>
+		<div class="contact cf">
 				<h1>CONTACT US</h1>
+				<div class="divider"></div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			<div class="contact_form cf">
+				<form action="POST">
+					<div class="contact_form_data">
+						<input type="text" placeholder="Name">
+						<input type="email" placeholder="Email">
+						<input type="text" placeholder="Subject">
+					</div>
+					<div class="contact_form_message">
+						<textarea" placeholder="Message" rows="10"></textarea">
+					</div>
+				</form>
 			</div>
-			<div class="contact-form">
-				
-			</div>
+			<div class="button-color"><a href="#">Send Message</a></div>
 		</div>
 
 	</main>
 	<!-- End content -->
+
 
 	<!-- FOOTER -->
 	<footer>
@@ -190,7 +363,7 @@
 				<li><a href="#"></a></li>
 			</ul>
 		</nav>
-		<div class="foot">© 2015 Axure Themes</div>
+		<div class="footer_text">© 2015 Axure Themes</div>
 	</footer>
 	<!-- End footer -->
 </body>
