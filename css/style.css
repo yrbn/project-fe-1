@@ -84,6 +84,8 @@ header {
     header .header_nav a {
       color: #fff;
       opacity: .6; }
+      header .header_nav a:hover {
+        opacity: 1; }
   header .header__small-logo {
     margin: 11px 0 11px;
     float: left; }
