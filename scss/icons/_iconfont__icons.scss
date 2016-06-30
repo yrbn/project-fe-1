@@ -1,0 +1,55 @@
+@font-face {
+  font-family: $global-font-icon;
+  src:url("../fonts/iconsfont..eot");
+  src:url("../fonts/iconsfont.?#iefix") format("embedded-opentype"),
+    url("../fonts/iconsfont.woff") format("woff"),
+    url("../fonts/iconsfont.ttf") format("truetype"),
+    url("../fonts/iconsfont.#iconsfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  font-family: $global-font-icon;
+
+  &:before {
+    /* Some common icon stuff */
+  }
+
+  &.-fb {
+    &:before {
+      content: $icon-fb;
+    }
+  }
+  &.-google {
+    &:before {
+      content: $icon-google;
+    }
+  }
+  &.-insta {
+    &:before {
+      content: $icon-insta;
+    }
+  }
+  &.-pinterest {
+    &:before {
+      content: $icon-pinterest;
+    }
+  }
+  &.-rss {
+    &:before {
+      content: $icon-rss;
+    }
+  }
+  &.-stumbleupon {
+    &:before {
+      content: $icon-stumbleupon;
+    }
+  }
+  &.-twitter {
+    &:before {
+      content: $icon-twitter;
+    }
+  }
+
+}

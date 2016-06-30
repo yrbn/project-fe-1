@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "myfont";
+  src: url("../fonts/iconsfont..eot");
+  src: url("../fonts/iconsfont.?#iefix") format("embedded-opentype"), url("../fonts/iconsfont.woff") format("woff"), url("../fonts/iconsfont.ttf") format("truetype"), url("../fonts/iconsfont.#iconsfont") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.icon {
+  font-family: "myfont"; }
+  .icon:before {
+    /* Some common icon stuff */ }
+  .icon.--fb:before {
+    content: icon--fb; }
+  .icon.--google:before {
+    content: icon--google; }
+  .icon.--insta:before {
+    content: icon--insta; }
+  .icon.--pinterest:before {
+    content: icon--pinterest; }
+  .icon.--rss:before {
+    content: icon--rss; }
+  .icon.--stumbleupon:before {
+    content: icon--stumbleupon; }
+  .icon.--twitter:before {
+    content: icon--twitter; }
+
+/*# sourceMappingURL=iconfont__icons.css.map */
