@@ -1,0 +1,33 @@
+/*------------------------------------*\
+				 HEAD 
+\*------------------------------------*/
+
+.wrapper {
+	background: #000;
+}
+
+header {
+	width: 1224px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.header__small-logo {
+	float: left;
+}
+
+.header_nav {
+	float: right;
+}	
+
+.header_nav	a {
+	display: inline-block;
+	padding-left: 45px;
+	color: #fff;
+	opacity: .6;
+	font-size: 14px;
+
+	&:hover {
+			opacity: 1;
+	}
+}

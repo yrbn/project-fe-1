@@ -1,0 +1,35 @@
+/*------------------------------------*\
+				BUTTONS
+\*------------------------------------*/
+
+.button-transparent a {
+	display: inline-block;
+	outline: 1px solid #fff;
+	border: 1px solid #cfd0d0;
+	padding: 12px 25px;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	transition: 1s;
+}
+
+.button-transparent a:hover {
+	background-color: #fff;
+	opacity: .5;
+	color: #383838;
+}
+
+.button-color a {
+	color: #fff;	
+	font-size: 15px;
+	display: inline-block;
+	background-color: #ff8b38;
+	text-align: center;
+	border-radius: 5px;
+	padding: 17px 25px;
+	transition: 1s;
+}
+
+.button-color a:hover {
+	background-color: #333;
+}

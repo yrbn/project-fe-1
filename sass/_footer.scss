@@ -1,0 +1,21 @@
+/*------------------------------------*\
+				FOOTER 
+\*------------------------------------*/
+
+footer {
+	width: 1224px;
+	margin: 0 auto;
+	padding: 15px 0;
+	color: #fff;
+	text-align: center;
+}
+
+footer a {
+	color: #fff;
+	display: inline-block;
+	margin-right: 35px;
+
+	&:hover {
+		transform: scale(1.1);
+	}
+}
