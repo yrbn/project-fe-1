@@ -1,0 +1,31 @@
+.bttest {
+	width: 1224px;
+	margin: 0 auto;
+	padding: 130px 0;
+	background-color: #000;
+	text-align:center;
+}
+
+.bttest .button-transparent  {
+	display: inline-block;
+
+	a {
+	float: left;
+	margin-right: 50px;
+	}
+}
+
+.icon {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.icon--left {
+	margin-right: 50px;
+}
+
+.icon--right {
+	margin-left: 50px;
+}
+
+

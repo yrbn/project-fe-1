@@ -102,17 +102,24 @@
 	float: left;
 }
 
+.social_icons {
+	float: right;
+}
+
 .social a {
 	color: #ccc;
 	display: inline-block;
-	float: right;
-	margin-top: 30px;
+	margin-top: 40px;
 	margin-left: 65px;
 	transition: 1s;
 
 	&:hover {
 		transform: scale(1.2);
 		color: #000;
+	}
+
+	.icon {
+		font-size: 42px;
 	}
 }
 
@@ -366,10 +373,6 @@
 	width: 273px;
 	margin-right: 120px;
 	margin-top: 55px;
-}
-
-.reviews_comment:last-of-type { 
-	margin-right: 0;  /* NOT WORKING */
 }
 
 .reviews_comment_text {
